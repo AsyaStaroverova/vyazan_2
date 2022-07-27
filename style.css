@@ -1,0 +1,216 @@
+.page {
+    margin: 0 auto;
+    width: 100%;
+    max-width: 1000px;
+    font-family: 'Manrope', sans-serif;
+}
+
+li {
+    list-style: none;
+}
+
+h1 {
+    font-size: 28px;
+    font-weight: 700;
+    line-height: 140%;
+    margin: 0%;
+}
+
+h2 {
+    font-size: 21px;
+    font-weight: 400;
+    line-height: 140%;
+    margin: 0%;
+}
+
+h3 {
+    font-size: 22px;
+    font-weight: 700;
+    line-height: 140%;
+    margin: 0 0;
+}
+
+p {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 135%;
+    margin: 0%;
+}
+
+ul {
+    padding-inline-start: 0;
+    font-size: 14px;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:link {
+    color: #000000; 
+}
+a:visited {
+    color: #000000;
+}
+a:hover {
+    color: #4e5f7e; 
+}
+a:active {
+    color: #497DDD; 
+    border-bottom: 1px dashed;
+}
+
+.header {
+    display: flex;
+    position: relative;
+}
+
+.header__overlay {
+    display: flex;
+    position: absolute;
+    left: 25px;
+    right: 25px;
+    flex-wrap: wrap;
+}
+
+.header__menu {
+    display: flex;
+    margin: 9px 0 0 0;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.header__menu-list {
+    display: flex;
+    align-items: flex-end;
+    gap: 22px;
+    padding: 0px;
+}
+
+.header__description {
+    position: absolute;
+    top: 245px;
+    left: 249px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+}
+
+.header__description-name {
+    margin: 0 0 10px;
+}
+
+.main__top {
+    margin: 13px 140px 0 140px;
+    text-align: center;
+}
+
+.main__lead {
+    margin: 62px auto;
+    width: 720px;
+    text-align: center;
+}
+
+.main__lead_pic {
+    width: 100%;
+    height: 100%;
+    max-width: 550px;
+    margin-right: 20px;
+}
+
+.main__women {
+    display: flex;
+    margin: 0 25px 0 25px;
+}
+
+.main__description {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: -10px;
+    align-content: flex-start;
+}
+
+.main__link {
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 140%;
+    border-bottom: 1px solid;
+}
+
+.main__products-women {
+    display: grid;
+    grid-template-columns: 470px 470px;
+    grid-auto-rows: 470px 470px;
+    grid-gap: 10px;
+    margin: 10px 25px 52px 25px;
+    position: relative;
+}
+.main__products-women img{
+    height: 100%;
+    width: 100%;
+}
+.main__products-women > a:nth-child(1) {
+    grid-row-start: 1;
+    grid-row-end: 3;
+}
+
+.main__products-women div {
+    position: absolute;
+    left: 19px;
+    bottom: 11px;
+    font-size: 14px;
+    color: white;
+    line-height: 158%;
+}
+
+.main__fact_description {
+    display: flex;
+    flex-wrap: wrap;
+    align-content: flex-start;
+    gap: 24px;
+}
+
+.main__facts {
+    font-size: 76px;
+    font-weight: 400;
+    padding-right: 208px;
+}
+
+.footer {
+    display: flex;
+    padding-bottom: 65px;
+}
+
+.footer__logo {
+    display: flex;
+    margin: 22px 79px 0 25px;
+    flex-direction: column;
+    align-items: flex-start;
+    height: 100%;
+    justify-content: space-between;
+}
+
+.footer__icons-list {
+    display: flex;
+    gap: 15px;
+    margin-top: 17px;
+}
+
+
+.footer li {
+    margin-bottom: 6px;
+}
+
+.footer li:last-child {
+margin-bottom: 0;
+}
+
+
+
+.footer__lists {
+    display: flex;
+    justify-content: space-between;
+    margin: 22px 0 0 0;
+    width: 100%;
+    max-width: 622px;
+}
